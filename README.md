@@ -13,9 +13,9 @@ editors as well.
 
 ### Before starting
  1. Install [Node.js](http://nodejs.org/)
- 1. Install jasmine-node
+ 1. Install mocha
 
-        npm install -g jasmine-node
+        npm install -g mocha
 
 ### Set up the project
  1. Get the project.  The simplest way is to download the zip archive.  Advanced users are free to fork the
@@ -27,7 +27,7 @@ editors as well.
  * For IntelliJ IDEA users, run the "Test" run configuration.
  * Alternately, run:
 
-        jasmine-node test/
+        mocha test/
 
 ### Troubleshooting
 
